@@ -6,10 +6,10 @@ app = FastAPI()
 
 # Data model list
 models = {
-    "gpt-4o": {
-        "name": "GPT-4O",
-        "description": "Optimized GPT-4 model",
-        "endpoint": "/ai/gpt-4o?text=",
+    "gpt-4o-mini": {
+        "name": "GPT-4O Mini",
+        "description": "Optimized GPT-4 Mini model",
+        "endpoint": "/ai/gpt-4o-mini?text=",
     },
     "gpt-4": {
         "name": "GPT-4",
